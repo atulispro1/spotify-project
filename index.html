@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Web Player: Music for Everyone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <div id="Home">
+    <ul>
+      <li>
+        <img src="home_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" class="icon" alt="Home Icon" />
+        <span>Home</span>
+      </li>
+      <li>
+        <img src="search_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" class="icon" alt="Search Icon" />
+        <span>Search</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Library Sidebar -->
+  <div id="library">
+    <div id="library_icon">
+      <img src="library_icon.png" class="icon2" alt="Library Icon" />
+      <span>Your Library</span>
+    </div>
+
+    <br>
+
+    <div class="box">
+      <div class="content">
+        <h3>Create Your First Playlist</h3>
+        <p>It's easy, we'll help you</p>
+        <button><b>Create Playlist</b></button>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="box">
+      <div class="content2">
+        <h3>Let's find some Podcasts to follow</h3>
+        <p>We'll keep you updated on new episodes</p>
+        <button><b>Browse Podcasts</b></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main">
+    <div class="top-bar">
+      <img class="arrow" src="backward_icon.png" alt="Back" />
+      <img class="arrow" src="forward_icon.png" alt="Forward" />
+      <button><b>Explore Premium</b></button>
+      <button class="install-btn"><b>Install App</b></button>
+      <img id="person" src="person_50dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png" alt="Profile" />
+    </div>
+
+    <!-- Recently Played -->
+    <section>
+      <h1>Recently Played</h1>
+      <br>
+      <div class="box3">
+        <img src="card1img.jpeg" alt="Top 50 Global" />
+        <div class="content3">
+          <h2>Top 50 - Global</h2>
+          <p>Your daily updates of the most played track</p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!-- Trending Now -->
+    <section>
+      <h1>Trending Now Near You</h1>
+      <br>
+      <div id="contanier">
+        <div class="box3">
+          <img src="card2img.jpeg" alt="Mahiye jinna Sohna" />
+          <div class="content3">
+            <h2>Mahiye jinna Sohna</h2>
+            <p>Most popular songs of the latest tracks</p>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="card3img.jpeg" alt="Mere Pass Tum Ho" />
+          <div class="content3">
+            <h2>Mere Pass Tum Ho</h2>
+            <p>Most popular songs of the latest tracks</p>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="card4img.jpeg" alt="Alter Ego - Leo" />
+          <div class="content3">
+            <h2>Alter Ego - Leo</h2>
+            <p>Most popular songs of the latest tracks</p>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="card2img.jpeg" alt="Mahiye jinna Sohna" />
+          <div class="content3">
+            <h2>Mahiye jinna Sohna</h2>
+            <p>Most popular songs of the latest tracks</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <hr />
+    <br>
+    <br>
+    <br>
+
+    <!-- Featured Charts -->
+    <section>
+      <h1>Featured Charts</h1>
+      <br>
+      <div id="contanier">
+        <div class="box3">
+          <img src="card1img.jpeg" alt="Top 50 Global" />
+          <div class="content3">
+            <h2>Top 50 - Global</h2>
+            <p>Your daily updates of the most played track right...</p>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="card5img.jpeg" alt="Top Songs Global" />
+          <div class="content3">
+            <h2>Top Songs Global</h2>
+            <p>Your weekly updates of the most played tracks...</p>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="card6img.jpeg" alt="Top Songs India" />
+          <div class="content3">
+            <h2>Top Songs India</h2>
+            <p>Your weekly updates of the most played tracks...</p>
+          </div>
+        </div>
+
+        <div class="box3">
+          <img src="card5img.jpeg" alt="Top 50 Global" />
+          <div class="content3">
+            <h2>Top 50 - Global</h2>
+            <p>Your weekly updates of the most played tracks...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Music Player -->
+  <div id="music-player">
+    <div class="song-info">
+      <img src="card1img.jpeg" alt="Album Art" />
+      <div>
+        <p class="title">Top 50 - Global</p>
+        <p class="artist">Spotify Charts</p>
+      </div>
+    </div>
+
+    <div class="center-controls">
+      <div class="control-buttons">
+        <img src="player_icon1.png" alt="Shuffle" />
+        <img src="player_icon2.png" alt="Previous" />
+        <div class="play-button">
+          <img src="player_icon3.png" alt="Play" />
+        </div>
+        <img src="player_icon4.png" alt="Next" />
+        <img src="player_icon5.png" alt="Queue" />
+      </div>
+      <div class="progress-bar">
+        <span>0:00</span>
+        <input type="range" class="seekbar" value="10" />
+        <span>0:00</span>
+      </div>
+    </div>
+
+    <div class="volume">
+      <img src="brand_awareness_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="Volume" />
+      <input type="range" class="volume-bar" value="100" />
+    </div>
+  </div>
+</body>
+</html>
